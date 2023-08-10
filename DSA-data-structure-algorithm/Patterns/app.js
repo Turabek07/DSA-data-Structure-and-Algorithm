@@ -10,7 +10,7 @@ function pattern1(a){
 }
 pattern1(5)
 
-// Answer will be 
+// Output will be :  
    "*****"
    "*****"
    "*****"
@@ -41,3 +41,23 @@ triangle(5)
 
 //--------------------------------------------
 
+// Pattern3
+
+function numbersTriangle(rows){
+  for(let i = 1;i <= rows;i++){
+    let line = '';
+    for(let j = 1; j <= i; j++){
+      line+= j + '';
+    }
+    console.log(line)
+  }
+}
+numbersTriangle(5);
+
+// Output will be:
+    "1"
+    "12"
+    "123"
+    "1234"
+    "12345"
+//------------------------------------------------
