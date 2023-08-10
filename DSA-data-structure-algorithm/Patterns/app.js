@@ -61,3 +61,25 @@ numbersTriangle(5);
     "1234"
     "12345"
 //------------------------------------------------
+
+ // Pattern 4
+
+ function doubleTri(n){
+  for(let i = 1; i <= n;i++){
+    let doubleTriangle = '';
+    for(let j = 1;j<=i;j++){
+      doubleTriangle+= i + ''
+    }
+    console.log(doubleTriangle)
+  }
+}
+doubleTri(5)
+
+// Output will be:
+      "1"
+      "22"
+      "333"
+      "4444"
+      "55555"
+
+//----------------------------------------
