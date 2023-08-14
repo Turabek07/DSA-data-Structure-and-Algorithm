@@ -83,3 +83,48 @@ doubleTri(5)
       "55555"
 
 //----------------------------------------
+
+// Pattern 5 
+
+function patternFive(n){
+  for(let i = 1;i <=n;i++){
+    let line = '';
+    for(let j = 0; j < n-i+1;j++){
+      line+= '*';
+    }
+    console.log(line)
+  }
+}
+patternFive(5)
+
+//OutPut will be: 
+    '*****'
+    '****'
+    '***'
+    '**'
+    '*'
+
+//--------------------------------------------------
+
+//Pattern 6
+
+function patternSix(n){
+  for(let i = 1;i<=n;i++){
+    let line = '';
+    for(j = 1;j <= n-i+1;j++){
+      line+= j + '';
+    }
+    console.log(line)
+  }
+}
+patternSix(5)
+
+//Ourput will be:
+
+      '12345'
+      '1234'
+      '123'
+      '12'
+      '1'
+
+//-----------------------------------------------------------
