@@ -193,3 +193,80 @@ patternEight(5)
 //-------------------------------------------------------
 
 // Pattern 9
+
+function patternEight(n){
+  for(let i = 0; i < n;i++){
+    let line = '';
+    //space
+    for(let j = 0;j<i;j++){
+      line+= ' ';function patternSeven(n){
+  for(let i = 0;i<n;i++ ){
+    let line = '';
+    //space
+    for(let j = 0;j < n-i-1;j++){
+      line += ' ';
+    }
+    //stars
+    for(let j = 0;j < 2*i+1;j++){
+      line += '*';
+    }
+    //space
+    for(let j = 0;j < n-i-1;j++){
+      line += ' ';
+    }
+    console.log(line);
+  }
+}
+patternSeven(5)
+    }
+    //stars
+    for(let j = 0; j < 2 * n - (2*i+1);j++){
+      line+= "*";
+    }
+    //space
+    for(let j = 0;j<i;j++){
+      line+= ' ';
+    }
+    console.log(line);
+  }
+}
+patternEight(5)
+
+//Output will be:
+  "    *    "
+  "   ***   "
+  "  *****  "
+  " ******* "
+  "*********"
+  "*********"
+  " ******* "
+  "  *****  "
+  "   ***   "
+  "    *    "
+//---------------------------------------------------------
+
+// PATTERN 10
+function makes_Rug(a, b) {
+    for (let i = 0; i < a; i++) {
+        let line = '';
+        for (let j = 0; j < b; j++) {
+            if (j == i || j == b - i - 1 ) {
+                line += ' ';
+            }
+          else {
+                line += '0';
+            }
+        }
+        console.log(line);
+    }
+}
+makes_Rug(6,6)
+
+// Output will be:
+
+//   0 0 0 0  
+// 0   0 0   0
+// 0 0     0 0
+// 0 0     0 0
+// 0   0 0   0
+//   0 0 0 0  
